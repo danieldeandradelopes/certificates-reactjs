@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Button, Spinner } from 'react-bootstrap';
 
 export const Container = styled.div`
   display: flex;
@@ -8,9 +9,8 @@ export const Container = styled.div`
   margin: 10px;
   background-color: #fff;
   border-radius: 3px;
-  margin-top: 100px;
-  height: 600px;
-  width: 900px;
+  height: 700px;
+  width: 1100px;
 `;
 
 export const TemplateImage = styled.img`
@@ -35,7 +35,7 @@ export const School = styled.p`
 
 export const Text = styled.p`
   font-family: 'Archivo', sans-serif;
-  margin: 60px 120px 80px 125px;
+  margin: 60px 180px 80px 180px;
   font-size: 20px;
   text-align: center;
 
@@ -73,4 +73,26 @@ export const Site = styled.p`
   color: #6e6a70;
   text-align: center;
   margin-bottom: 30px;
+`;
+
+export const ButtonStyled = styled(Button)`
+  border-color: #7e4090;
+  background-color: #7e4090;
+  color: #fff;
+
+  &:hover {
+    border-color: #85688e;
+    background-color: #85688e;
+  }
+
+  box-shadow: #85688e;
+
+  :active {
+    border-color: #85688e;
+    background-color: #85688e;
+  }
+`;
+
+export const Progress = styled(Spinner)`
+  position: absolute;
 `;
