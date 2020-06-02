@@ -2,7 +2,7 @@
 
 [![N|Solid](https://firebasestorage.googleapis.com/v0/b/jacode-stg.appspot.com/o/assets%2Fpicture.png?alt=media&token=77028961-5d3f-4995-9625-18174a48642a)](https://jacode.com.br)
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+
 
 This package is for you, that need generate a certificate for your course, is very simple.
 You need a simple props:
@@ -15,6 +15,11 @@ You need a simple props:
   - urlSignature (digital signature)
   - school (name school/organization)
   - site (site in the web)
+
+
+### Example
+
+[![N|Solid](https://firebasestorage.googleapis.com/v0/b/jacode-stg.appspot.com/o/assets%2Fexample.png?alt=media&token=a98ba833-d801-45d1-b898-446da8757cb9)](https://jacode.com.br)
 
 
 ### Installation
@@ -47,7 +52,7 @@ import CertificatesReacjts from 'certificates-reactjs';
 ```
 ### Contribuing
 See the contribution [guidelines](https://github.com/danieldeandradelopes/jacode-certificates/blob/master/Contributing.md "guidelines") before creating a pull request.
- 
+
 
 License
 ----
