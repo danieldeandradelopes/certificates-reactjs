@@ -1,69 +1,64 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Certificates ReactJS
 
-## Available Scripts
+[![N|Solid](https://firebasestorage.googleapis.com/v0/b/jacode-stg.appspot.com/o/assets%2Fpicture.png?alt=media&token=77028961-5d3f-4995-9625-18174a48642a)](https://jacode.com.br)
 
-In the project directory, you can run:
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-### `yarn start`
+This package is for you, that need generate a certificate for your course, is very simple.
+You need a simple props:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  - hours
+  - name (student)
+  - courseName
+  - date
+  - author (teacher)
+  - urlSignature (digital signature)
+  - school (name school/organization)
+  - site (site in the web)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `yarn test`
+### Installation
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To install you need:
 
-### `yarn build`
+```sh
+$ npm i certificates-reactjs
+```
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Using
+To using you need:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```sh
+import CertificatesReacjts from 'certificates-reactjs';
+```
 
-### `yarn eject`
+```sh
+ <CertificatesReactjs
+        hours="5,5"
+        name="Daniel de Andrade Lopes"
+        courseName="Programador Android 2020"
+        date="10/01/2021"
+        author="Daniel Lopes"
+        urlSignature="https://firebasestorage.googleapis.com/v0/b/jacode-stg.appspot.com/o/31-05-2020_17-33-01.png?alt=media&token=b27927fd-7aa3-4264-ae08-13740060608d"
+        school="JACODE CURSOS"
+        site="www.jacode.com.br"
+      />
+```
+### Contribuing
+See the contribution [guidelines](https://github.com/danieldeandradelopes/jacode-certificates/blob/master/Contributing.md "guidelines") before creating a pull request.
+ 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+License
+----
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+MIT
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+**Free Software, Hell Yeah!**
 
-## Learn More
+Thanks
+----
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Thanks to anyone who has [contributed](https://github.com/danieldeandradelopes/jacode-certificates/blob/master/Contributing.md "contributed").
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-# jacode-certificates
